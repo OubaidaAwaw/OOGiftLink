@@ -1,0 +1,4 @@
+.cardsContainer{
+  flex-wrap: wrap;
+  padding-inline: 60px;
+}

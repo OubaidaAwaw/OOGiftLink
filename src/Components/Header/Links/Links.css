@@ -1,0 +1,22 @@
+
+.headerContainer ul{
+  list-style: none;
+}
+.headerContainer ul a{
+  position: relative;
+  text-decoration: none;
+  color: var(--textColor);
+}
+.headerContainer ul a::before{
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--mainColor);
+  visibility: hidden;
+}
+.headerContainer ul a.active::before{
+  visibility: visible;
+}

@@ -1,0 +1,15 @@
+.dragContainer{
+  width: 100%;
+  min-height: 100px;
+  border: 2px solid var(--mainColor);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  padding: 20px;
+}
+.dragContainer:hover{
+  background-color: var(--contrastBackColor);
+}

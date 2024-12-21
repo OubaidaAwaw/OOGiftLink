@@ -1,0 +1,9 @@
+.accountContainer{
+  padding-inline: 60px;
+}
+.accountContainer .inputContainer input{
+  padding: 5px 7px;
+  outline: none;
+  font-family: var(--font);
+  font-size: 16px;
+}

@@ -1,0 +1,13 @@
+.loginContainer{
+  padding-inline: 60px;
+  height: calc(100vh - 150px);
+}
+.loginContainer .inputContainer{
+  width: 360px;
+}
+.loginContainer .inputContainer input{
+  outline: none;
+  font-size: 16px;
+  font-family: var(--font);
+  padding:3px 7px;
+}

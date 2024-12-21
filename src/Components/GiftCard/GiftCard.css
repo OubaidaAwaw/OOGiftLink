@@ -1,0 +1,21 @@
+.giftCardContainer{
+  width: 360px;
+  min-height: 400px;
+  padding: 10px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  background-color: var(--contrastBackColor);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+              rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: solid 1px var(--mainColor);
+  cursor: default;
+}
+.giftCardContainer img{
+  width: fit-content;
+}
+.giftCardContainer .controllers button{
+  width: 60px;
+}

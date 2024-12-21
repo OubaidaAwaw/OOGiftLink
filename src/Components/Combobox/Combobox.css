@@ -1,0 +1,7 @@
+.comboContainer select{
+  width: 360px;
+  font-size: 16px;
+  padding-block:5px;
+  cursor: pointer;
+  outline: none;
+}

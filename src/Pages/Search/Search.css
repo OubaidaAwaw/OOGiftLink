@@ -1,0 +1,7 @@
+section{
+  width: 100%;
+  padding-inline: 60px;
+}
+.giftSearchCardContainer{
+  flex-wrap: wrap;
+}
